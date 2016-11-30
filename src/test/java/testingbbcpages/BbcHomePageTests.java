@@ -11,6 +11,7 @@ public class BbcHomePageTests extends BbcHomePage{
 		getBbcHomePage();
 		Assert.assertEquals(getTitle(), title);
 		getLinksList();
+		getOfficeLocationsList();
 	}
 
 }
